@@ -1,0 +1,19 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\..\FrameXML\UI.xsd">
+	<Script file="CC_FiveSecondRule.lua"/>
+		<Frame name="ManaRegenTimer" virtual="true" parent="UIParent">
+			<Size x="500" y="600" />
+			<Anchors>
+				<Anchor point="LEFT" x="200" y="-100"/>
+			</Anchors>
+			<Layers>
+				<Layer level="BACKGROUND">
+					<Texture parentKey="Background" file="Interface\TargetingFrame\UI-RaidTargetingIcon_8.blp"/>
+				</Layer>
+			</Layers>
+		</Frame>
+	<Scripts>
+		<OnEvent>
+			onEvent(self, event, arg1, ...)
+		</OnEvent>
+	</Scripts>
+</Ui>

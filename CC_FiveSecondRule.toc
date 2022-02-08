@@ -1,0 +1,3 @@
+## Classic Addon for 1.13
+## By: Chad Wheeldon
+CC_FiveSecondRule.lua
